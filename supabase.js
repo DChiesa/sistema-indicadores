@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 
-export const NEXT_PUBLIC_SUPABASE_URL=https://xgygohmfhyllgfcrgtyu.supabase.co;
-export const NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_Ijcmwt2ZdPa1REDkZrISLA_Rf28weNi;
+export const NEXT_PUBLIC_SUPABASE_URL='https://xgygohmfhyllgfcrgtyu.supabase.co';
+export const NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY='sb_publishable_Ijcmwt2ZdPa1REDkZrISLA_Rf28weNi';
 export const STORAGE_BUCKET = 'dados-operacionais';
 export const AUTO_REFRESH_MS = 5 * 60 * 1000;
 const cache = new Map();
